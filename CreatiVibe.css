@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+height: 1000rem;
+}
+.color-all{
+    color: rgba(249, 115, 22, 1);
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.landing{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.55)), url(CreatiVibe/2e3148355fb298e3fbc35a8747abb2f1591b3289.jpg);
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+.navbar .nav-item .nav-link{
+    color: #fff;
+}
+.main-btn{
+    background-color: rgba(249, 115, 22, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main-btn:hover{
+    background-color: rgb(216, 124, 58);
+}
+.content{
+    max-width: 520px;
+   font-size: 17px;
+   margin-top: 50px;
+}
+.navbar .navbar-brand:hover{
+    color: rgb(236, 112, 25);
+
+}
+.navbar .navbar-toggler{
+    color: #fff;
+}
+.content :nth-child(2){
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+@media (max-width: 700px) {
+    .content{
+        margin-top: -50px;
+    }
+}
+.under-landing{
+    height: 200px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.under-landing p{
+    width: 600px;
+    text-align: center;
+    color: rgba(249, 115, 22, 1);
+    font-family: "Poppins" sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 20px;
+}
+.membership{
+    background-color: rgba(243, 244, 246, 1);
+    min-height: 1000px;
+}
+.membership-title h4{
+    text-align: center;
+    color: rgba(249, 115, 22, 1);
+    font-family: "Poppins" sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 23px;
+}
+.membership-title p{
+    font-family: "Poppins" sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    width: 500px;
+    margin: auto;
+}
+.cards-step{
+    max-width: 500px;
+}
+.card-p{
+    width: 350px;
+      font-family: "Poppins" sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.img-edit{
+    width: 400px;
+    height: 300px;
+}
